@@ -1,0 +1,26 @@
+Website: Colab 
+
+Some definitions:
+
+* Scalar: a single num (0-Dimentional tensor)
+* Vector: num with direction (1-Dimentional tensor)
+* Matrix: 2D array of num
+* Tensor: n-Dimentional arrary of num
+
+ndim : check dimentions
+
+Ctrl MM (makes it a note)
+Shift Enter (new command line)
+
+# Import TensorFlow (first thing we need to do)
+import tensorflow as tf
+print(tf.__version__);
+
+# Create scalar with tf.constant() 
+scalar = tf.constant(7)
+scalar
+
+# check the number of dimension of a tensor (ndim: number of dimentions)
+scalar.ndim
+
+scalar can be replaced with vector, matrix, tensor 
